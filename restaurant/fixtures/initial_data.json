@@ -1,0 +1,70 @@
+[
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 1,
+    "fields": {
+      "name_ru": "Напитки",
+      "order_id": 10
+    }
+  },
+  {
+    "model": "restaurant.foodcategory",
+    "pk": 2,
+    "fields": {
+      "name_ru": "Выпечка",
+      "order_id": 20
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "internal_code": 100,
+      "code": 1,
+      "name_ru": "Чай",
+      "description_ru": "Чай 100 гр",
+      "cost": "123.00",
+      "is_publish": true
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "internal_code": 200,
+      "code": 2,
+      "name_ru": "Кола",
+      "description_ru": "Кола",
+      "cost": "123.00",
+      "is_publish": true
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "internal_code": 300,
+      "code": 3,
+      "name_ru": "Круассан",
+      "description_ru": "Французский круассан",
+      "cost": "250.00",
+      "is_publish": true
+    }
+  },
+  {
+    "model": "restaurant.food",
+    "pk": 4,
+    "fields": {
+      "category": 2,
+      "internal_code": 400,
+      "code": 4,
+      "name_ru": "Печенье",
+      "description_ru": "Домашнее печенье",
+      "cost": "150.00",
+      "is_publish": false
+    }
+  }
+]
